@@ -1,6 +1,6 @@
 from langchain_community.vectorstores import FAISS
 from langchain_openai import OpenAIEmbeddings
-import os
+
 
 
 def create_vectorstore(text_chunks, openai_api_key):

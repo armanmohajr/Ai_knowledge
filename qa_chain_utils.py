@@ -6,7 +6,7 @@ def build_qa_chain(vectorstore, openai_api_key):
 
     llm = ChatOpenAI(
         model="gpt-4o-mini", # use gpt-4o-mini
-        openai_api_key=openai_api_key, #
+        openai_api_key=openai_api_key, # use OPENAI_API_KEY
         temperature=1
     )
 
